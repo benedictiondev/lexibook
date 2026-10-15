@@ -1,0 +1,21 @@
+# Configurations et secrets locaux
+/config/database.local.php
+.env
+.env.*
+!.env.example
+*.local.php
+
+# Sauvegardes contenant potentiellement des données personnelles
+*.sql.gz
+*.dump
+*.bak
+*backup*.zip
+
+# OS / éditeurs
+.DS_Store
+__MACOSX/
+._*
+.idea/
+.vscode/
+
+# Historique git présent dans les sauvegardes anciennes : ne pas le réutiliser
